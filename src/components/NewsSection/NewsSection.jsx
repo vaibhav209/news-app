@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Badge, Card, Container, Spinner } from "react-bootstrap";
-// import { getNews } from "../../service/news";
+import { getNews } from "../../service/news";
 import NavigationBar from "../NavigationBar/NavigationBar";
 
 const NewsSection = () => {
